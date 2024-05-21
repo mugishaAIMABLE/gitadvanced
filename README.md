@@ -1,3 +1,6 @@
+# Git Exercices
+
+```bash
 git status
 git branch -m master main
 touch test{1..4}.md
@@ -56,6 +59,6 @@ git log
 git reset HEAD~ // resetting the latest commit
 git commit -m "third and fourth commit"
 git commit -m "fith commit"
-
+```
 
   
