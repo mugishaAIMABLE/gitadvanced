@@ -62,6 +62,27 @@ git commit -m "fith commit"
 git checkout main
 git log ft/branch --oneline
 git log --graph
+git branch
+git checkout ft/new-feature
+git push origin main
+git checkout main
+git status
+git branch -d ft/new-feature
+git pull origin main
+git branch -d ft/new-feature
+git checkout ft/new-feature
+git merge main
+git checkout main
+git merge ft/new-feature
+git status
+git branch -d ft/new-feature
+git log
+git branch -b ft/branch-from-commit 6396394d8ef2088ff4461a8cefc5a553472cfb49
+git checkout  -b ft/branch-from-commit 6396394d8ef2088ff4461a8cefc5a553472cfb49
+git branch
+git branch -m ft/branch-from-commit ft/branch-renamed
+git branch
+git checkout 
 
 ```
 
