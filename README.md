@@ -59,6 +59,10 @@ git log
 git reset HEAD~ // resetting the latest commit
 git commit -m "third and fourth commit"
 git commit -m "fith commit"
+git checkout main
+git log ft/branch --oneline
+git log --graph
+
 ```
 
   
